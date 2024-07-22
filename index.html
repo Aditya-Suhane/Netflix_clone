@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="./css/utils.css">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="shortcut icon" href="./resources/icon.ico" type="image/x-icon">
+</head>
+<body>
+    <div id="hero" class="full-page">
+        <header class="flex v-center apart">
+            <div class="logo">
+                <img src="./resources/logo.png" alt="">
+            </div>
+            <div class="tabs flex gap-3">
+                <button class="language">English</button>
+                <button class="btn">Sign In</button>
+            </div>
+        </header>
+        <div class="title flex-col v-center bottom gap-1">
+            <h1>Unlimited movies, TV shows and more</h1>
+            <h2 class="h2-design">Watch anywhere. Cancel anytime.</h2>
+        </div>
+        <div class="membership flex-col h-center gap-1">
+            <h4 class="h4-design center">Ready to watch? Enter your email to create or restart your membership.</h4>
+            <form action="#" class="flex h-center v-center gap-1">
+                <input type="email" name="mail" id="mail" placeholder="Email address" required>
+                <input type="submit" value="Get started" class="btn" id="get-started">
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div id="second" class="full-page grid column-2 grid-center">
+        <div class="text">
+            <h2 class="h2-design">Enjoy on your TV</h2>
+            <h3 class="h3-design">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</h3>
+        </div>
+        <div class="vid-con flex h-center relative">
+            <img src="./resources/tv.png" alt="">
+            <video id="tv-video" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" muted autoplay loop></video>
+        </div>
+    </div>
+    <hr>
+    <div id="third" class="full-page grid column-2 grid-center">
+        <div class="mobile">
+            <img src="./resources/mobile.jpg" alt="">
+            <div class="out-flow grid column-2 grid-center">
+                <img src="./resources/boxshot.png" alt="">
+                <div>
+                    <p>Stranger Things</p>
+                    <p>Downloading...</p>
+                </div>
+            </div>
+        </div>
+        <div class="text">
+            <h2 class="h2-design">Download your shows to watch offline</h2>
+            <h3 class="h3-design">Save your favourites easily and always have something to watch.</h3>
+        </div>
+    </div>
+    <hr>
+    <div id="fourth" class="full-page grid column-2 grid-center">
+        <div class="text">
+            <h2 class="h2-design">Watch everywhere</h2>
+            <h3 class="h3-design">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
+        </div>
+        <div class="vid-con flex h-center relative">
+            <img src="./resources/device-pile.png" alt="">
+            <video id="mac-video" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" muted autoplay loop></video>
+        </div>
+    </div>
+    <hr>
+    <div id="fifth" class="full-page grid column-2 grid-center">
+        <img src="./resources/children.png" alt="">
+        <div class="text">
+            <h2 class="h2-design">Create profiles for kids</h2>
+            <h3 class="h3-design">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</h3>
+        </div>
+    </div>
+    <hr>
+    <div id="faq" class="flex-col gap-2">
+        <h2 class="center">Frequently Asked Questions</h2>
+        <div class="questions">
+            <!-- dynamic content -->
+        </div>
+        <div class="membership flex-col h-center gap-1">
+            <h4 class="h4-design center">Ready to watch? Enter your email to create or restart your membership.</h3>
+            <form action="#" class="flex h-center v-center gap-1">
+                <input type="email" name="mail" id="mail" placeholder="Email address" required>
+                <input type="submit" value="Get started" class="btn" id="get-started">
+            </form>
+        </div>
+    </div>
+    <hr>
+    <div id="footer" class="grid column-2 half-page grid-center">
+        <ul class="flex-col gap-2">
+            <li>Questions? Call
+                <span class="contact">000-800-919-1694</span>
+            </li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Investor Relations</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Speed Test</a></li>
+            <li><button class="language">English</button></li>
+            <li>Netflix India</li>
+        </ul>
+        <div class="grid column-3 grid-center">
+            <ul class="flex-col gap-2">
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+            <ul class="flex-col gap-2">
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Ways to Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Only on Netflix</a></li>
+            </ul>
+            <ul class="flex-col gap-2">
+                <li><a href="#">Media Centre</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./js/script.js"></script>
+</html>

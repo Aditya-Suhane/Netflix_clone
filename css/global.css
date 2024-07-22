@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+body{
+    background-color: black;
+}
+
+#hero{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-image: url("../resources/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+}
+
+#hero header .logo img{
+    width: 16vmax;
+}
+
+.language{
+    background: transparent;
+    border-style: none;
+    border: 0.1px solid lightgray;
+    padding: 0.5vmax 1.1vmax;
+    border-radius: 5px;
+    font-size: 1.1vmax;
+}
+
+#hero .title{
+    height: 50%;
+}
+#hero .title h1{
+    font-size: 4vmax;
+    font-weight: 700;
+}
+#hero .title h2{
+    font-size: 2.1vmax;
+    font-weight: 300;
+}
+
+.membership{
+    height: calc(100vh - 75%);
+}
+
+form #mail{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-style: none;
+    border-radius: 5px;
+    padding: 1.1vmax 1.2vmax;
+    font-size: 1.3vmax;
+    color: #b4b4ae;
+    border: 0.1px solid #b4b4ae;
+    width: 28%;
+    color: white;
+    letter-spacing: 0.7px;
+    height: fit-content;
+}
+
+#get-started{
+    font-size: 1.7vmax;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    padding: 1.1vmax 2.1vmax;
+    height: fit-content;
+}
+
+hr{
+    border: none;
+    height: 0.7vmax;
+    background-color: #232323;
+}
+
+#second .text{
+    padding-left: 9vmax;
+    align-self: center;
+}
+
+#third .text{
+    padding-right: 9vmax;
+    align-self: center;
+}
+
+#third .mobile{
+    position: relative;
+}
+
+#third .mobile > img{
+    width: 40vmax;
+}
+
+#third .mobile .out-flow{
+    position: absolute;
+    border: 3px solid #232323;
+    border-radius: 10px;
+    padding: 0.6vmax 0;
+    padding-right: 1vmax;
+    bottom: 5%;
+    left: 18%;
+    background-color: black;
+    width: 60%;
+}
+
+#third .mobile .out-flow img{
+    width: 6vmax;
+}
+
+#third .mobile .out-flow div{
+    align-self: center;
+    font-size: 1.1vmax;
+}
+
+#third .mobile .out-flow div p:nth-child(2){
+    color: #006ade;
+}
+
+#fourth .text{
+    padding-left: 9vmax;
+    align-self: center;
+}
+
+#fifth .text{
+    padding-right: 9vmax;
+    align-self: center;
+}
+
+#fifth img{
+    width: 75%;
+}
+
+#faq{
+    min-height: 100vh;
+    padding-bottom: 3vmax;
+}
+
+#faq h2{
+    font-size: 4.5vmax;
+    font-weight: 700;
+    margin-top: 1vmax;
+}
+
+#faq .questions .card{
+    width: 75%;
+    margin: auto;
+}
+
+#faq .questions .card .question{
+    padding: 2vmax;
+    cursor: pointer;
+    transition: all ease 0.3s;
+    background-color: #232323;
+}
+
+#faq .questions .card .question:hover{
+    background-color: #494545;
+}
+
+#faq .questions .card .answer{
+    background-color: #232323;
+    transition: all ease 0.7s;
+    margin-top: 0.1vmax;
+    overflow: hidden;
+    padding: 0 2vmax;
+}
+
+#footer{
+    padding: 8vmax;
+}
+
+#footer li{
+    list-style: none;
+    color: rgb(170, 170, 170);
+    font-size: 1.1vmax;
+}
+
+#footer li a{
+    color: rgb(170, 170, 170);
+    font-size: 1.1vmax;
+}
+
+#footer li .contact{
+    color: rgb(170, 170, 170);
+    text-decoration: underline;
+    margin: 0 0.5vmax;
+}
+
+#tv-video{
+    position: absolute;
+    right: 22%;
+    top: 16%;
+    width: 60%;
+    z-index: -1;
+}
+#mac-video{
+    position: absolute;
+    right: 27%;
+    top: 8%;
+    width: 48%;
+    z-index: -1;
+}
+.vid-con img{
+    width: 75%;
+}

@@ -1,0 +1,242 @@
+@media (orientation: landscape) and (max-width: 768px){
+    .language{
+        font-size: 1.5vmax;
+    }
+    .btn{
+        font-size: 1.5vmax;
+    }
+    #hero header{
+        padding-top: 1.5vmax;
+    }
+    #hero .title{
+        margin-top: 2vmax;
+        justify-content: center;
+    }
+    .membership{
+        height: fit-content;
+    }
+    .membership h4{
+        font-size: 1.7vmax;
+        font-weight: 400;
+    }
+    form #mail{
+        font-size: 1.5vmax;
+        width: 35%;
+    }
+    #get-started{
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #footer li, #footer li a{
+        font-size: 1.4vmax;
+    }
+}
+
+@media (orientation: portrait) and (max-width: 500px){
+    #hero header .logo img{
+        width: 120px;
+    }
+    #hero header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .language{
+        font-size: 15px;
+        padding: 6px 15px;
+    }
+    .btn{
+        font-size: 15px;
+        padding: 6px 15px;
+    }
+    #hero .title{
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+    }
+    #hero .title h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    #hero .title h2{
+        font-size: 18px;
+    }
+    .membership{
+        height: fit-content;
+        width: 80%;
+        margin: auto;
+        gap: 20px;
+    }
+    .membership h4{
+        font-size: 17px;
+    }
+    .membership form{
+        flex-direction: column;
+        gap: 10px;
+    }
+    form #mail{
+        font-size: 15px;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    #get-started{
+        font-size: 15px;
+        text-transform: uppercase;
+        padding: 10px 15px;
+    }
+
+    #second{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #second .text{
+        padding: 0;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    #second .text h2{
+        font-size: 30px;
+    }
+    #second .text h3{
+        font-size: 18px;
+    }
+
+    #third{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #third .text{
+        padding: 0;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        order: -1;
+    }
+    #third .text h2{
+        font-size: 30px;
+    }
+    #third .text h3{
+        font-size: 18px;
+    }
+    #third .mobile > img{
+        width: 300px;
+    }
+    #third .mobile .out-flow{
+        padding-right: 12px;
+        bottom: 18%;
+        left: 11%;
+        background-color: black;
+        width: 75%;
+    }
+    #third .mobile .out-flow p{
+        font-size: 15px;
+    }
+    #third .mobile .out-flow img{
+        width: 40px;
+    }
+
+    #fourth{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #fourth .text{
+        padding: 0;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+    #fourth .text h2{
+        font-size: 30px;
+    }
+    #fourth .text h3{
+        font-size: 18px;
+    }
+
+    #fifth{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    #fifth .text{
+        padding: 0;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        order: -1;
+    }
+    #fifth .text h2{
+        font-size: 30px;
+    }
+    #fifth .text h3{
+        font-size: 18px;
+    }
+
+    #faq h2{
+        width: 90%;
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    #faq .questions .card{
+        width: 90%;
+    }
+    #faq .questions .card h3, #faq .questions .card p{
+        font-size: 17px;
+    }
+    .questions .card p{
+        padding: 5px 0;
+    }
+    .visible{
+        height: fit-content;
+    }
+
+    #footer li, #footer li a{
+        font-size: 12px;
+    }
+    #footer ul{
+        gap: 12px;
+    }
+    #footer div{
+        grid-template-columns: 1fr;
+        justify-items: start;
+        align-content: start;
+    }
+    #footer .language{
+        font-size: 12px;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 600px){
+    .full-page{
+        height: 70vh;
+    }
+    #third .mobile .out-flow{
+        bottom: 9%;
+    }
+    #tv-video{
+        top: 21%;
+    }
+    #mac-video{
+        right: 26%;
+        top: 10%;
+        width: 49%;
+    }
+}
+
+@media (orientation: portrait) and (min-height: 800px){
+    #third .mobile .out-flow{
+        bottom: 15%;
+    }
+    .vid-con img{
+        height: 250px;
+        width: auto;
+    }
+    #tv-video{
+        width: 75%;
+        right: 14%;
+        top: 16%;
+    }
+    #mac-video{
+        right: 20%;
+        top: 7%;
+        width: 60%;
+    }
+}
